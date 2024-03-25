@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="../static/script.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="Adam Sultan">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Adam Sultan's professional website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Sultan</title>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Adam Sultan</h1>
+        <nav id="myTopNav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="CV.html">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+ 
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id="greeting"></h2>
+        <img src="../static/AdamSultan.png" alt="Adam Sultan profile image" width="250px">
+        <div class="classA">
+           <span id="shortIntro">My name is Adam Sultan, and I am a freshman at Carnegie Mellon University studying Information Systems. 
+            I am from Harlem, New York City, where I live with my parents, my two siblings, and my two cats. 
+            I have Egyptian Muslim ancestry. In my free time, I enjoy hanging out with friends and family, playing basketball,
+             going to the gym, and playing video games. My two favorite video games at the moment are Elden Ring and God of War: Ragnarok.</span>
+           <span id="readMore">Read more...</span>
+           <span id="longIntro">I also enjoy learning how to program, whether it be websites or other projects/applications. I have done work for multiple 
+            organizations, including EcoAccess NYC, a non-profit organization dedicated to providing students in underserved communities 
+            access to computers and tech accessories. I also am the President of Intelliminds, an organization focused on providing 
+            affordable tutoring and educational resources for students in the United States. Through these experiences and others, I have 
+            developed a passion for combining programming with business.</span>
+           <span id="readLess">Read less...</span>
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Adam Sultan &copy</p>
+    </footer>
+</body>
+</html>
